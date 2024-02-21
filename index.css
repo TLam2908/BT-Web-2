@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+form {
+    margin-bottom: 40px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: calc(100% - 200px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    background-color: rgb(213, 66, 66);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #8c1d1d;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+/* Additional CSS */
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+    border-color: #8c1d1d;
+    outline: none;
+}
+input[type="submit"]:active,
+input[type="button"]:active {
+    background-color: #6a1414;
+}
+input[type="submit"],
+input[type="button"] {
+    cursor: pointer;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+
+.labelCss {
+    width: 20%;
+}
